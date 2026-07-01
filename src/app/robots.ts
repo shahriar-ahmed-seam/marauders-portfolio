@@ -3,6 +3,6 @@ import type { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: "https://marauders-portfolio.vercel.app/sitemap.xml",
+    sitemap: "https://harrypotter-silk.vercel.app/sitemap.xml",
   };
 }

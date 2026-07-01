@@ -39,7 +39,7 @@ const script = IM_Fell_English({
   display: "swap",
 });
 
-const siteUrl = "https://marauders-portfolio.vercel.app";
+const siteUrl = "https://harrypotter-silk.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
