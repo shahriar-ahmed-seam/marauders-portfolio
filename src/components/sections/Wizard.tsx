@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { MapPin, Sparkles, Wand2, Cat } from "lucide-react";
 import { UnsplashImage } from "@/components/ui/UnsplashImage";
@@ -8,7 +9,14 @@ import { Reveal } from "@/components/ui/Reveal";
 import { HouseCrest } from "@/components/magic/HouseCrest";
 import { profile, stats } from "@/data/portfolio";
 import { useHouse } from "@/context/HouseProvider";
-import { HOUSES } from "@/data/houses";
+import { HOUSES, type HouseId } from "@/data/houses";
+
+const PORTRAIT: Record<HouseId, string> = {
+  gryffindor: "/houses/Gryffindor.png",
+  slytherin: "/houses/Slytherin.png",
+  ravenclaw: "/houses/Ravenclaw.png",
+  hufflepuff: "/houses/Hufflepuff.png",
+};
 
 export function Wizard() {
   const { house } = useHouse();
@@ -33,13 +41,25 @@ export function Wizard() {
               style={{ transformStyle: "preserve-3d" }}
             >
               <div className="relative aspect-[3/4] overflow-hidden rounded-2xl">
-                <UnsplashImage
-                  imageKey="wizard"
-                  width={900}
-                  sizes="(max-width: 1024px) 90vw, 400px"
-                  className="h-full w-full"
-                  imgClassName="grayscale-[0.25]"
-                />
+                {activeHouse ? (
+                  <Image
+                    key={activeHouse.id}
+                    src={PORTRAIT[activeHouse.id]}
+                    alt={`${profile.name} — sorted into ${activeHouse.name}`}
+                    fill
+                    sizes="(max-width: 1024px) 90vw, 400px"
+                    className="object-cover object-center animate-[fadeIn_0.6s_ease]"
+                    priority={false}
+                  />
+                ) : (
+                  <UnsplashImage
+                    imageKey="wizard"
+                    width={900}
+                    sizes="(max-width: 1024px) 90vw, 400px"
+                    className="h-full w-full"
+                    imgClassName="grayscale-[0.25]"
+                  />
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                 {activeHouse && (
                   <div className="absolute right-3 top-3">
@@ -47,7 +67,9 @@ export function Wizard() {
                   </div>
                 )}
                 <div className="absolute bottom-3 left-4">
-                  <p className="text-xs uppercase tracking-[0.3em] text-accent">Ministry of Magic</p>
+                  <p className="text-xs uppercase tracking-[0.3em] text-accent">
+                    {activeHouse ? `House ${activeHouse.name}` : "Ministry of Magic"}
+                  </p>
                   <p className="text-2xl" style={{ fontFamily: "var(--font-display)" }}>
                     {profile.name}
                   </p>

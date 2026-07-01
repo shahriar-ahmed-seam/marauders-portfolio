@@ -198,6 +198,10 @@ h1, h2, h3, h4 {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
 }
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 @keyframes rise {
   0% { transform: translateY(110vh) translateX(0) scale(var(--s, 1)); opacity: 0; }
   10% { opacity: var(--o, 0.8); }

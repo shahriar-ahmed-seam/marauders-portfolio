@@ -4,21 +4,23 @@
  */
 
 export const profile = {
-  name: "Shahriar Ahmed",
-  epithet: "Full-Stack Sorcerer",
-  wand: "TypeScript, 12¾″, dragon-heartstring core",
-  patronus: "React",
+  name: "Shahriar Ahmed Seam",
+  epithet: "AI Sorcerer & LLM Researcher",
+  wand: "Python, 12¾″, phoenix-feather core",
+  patronus: "A Neural Network",
+  company: "Somokolon Labs",
   house: null as null, // default; visitors get sorted live
-  location: "Dhaka, Bengal · Remote across realms",
+  location: "Dhaka, Bangladesh · Remote across realms",
   available: true,
-  tagline: "I turn caffeine and curiosity into software that feels like magic.",
+  tagline:
+    "AI/ML Engineer & LLM Researcher — I conjure agentic AI, generative systems and on-device intelligence.",
   bio: [
-    "I'm a full-stack engineer who treats the browser like a wand — a small instrument capable of extraordinary things when you know the right incantations.",
-    "For the better part of a decade I've conjured web platforms, design systems and developer tools: fast, accessible, and built to last beyond a single term at Hogwarts.",
-    "When I'm not shipping, you'll find me reverse-engineering animations, mentoring first-years, and hunting for the perfect dark-mode palette.",
+    "I'm an AI/ML engineer and LLM researcher who treats models like spells — powerful, precise, and a little bit alive. My work spans agentic AI, Generative AI, RAG systems, NLP, computer vision and diffusion models.",
+    "At Somokolon Labs I build production LLM systems and multi-agent orchestrators, and I'm just as at home carving a vector database out of raw C++ as I am wiring up a real-time recommendation engine.",
+    "I've shipped 100+ open-source projects — from offline-first healthcare AI for rural Bangladesh to low-latency systems engineering — always chasing that intersection of research depth and real-world impact.",
   ],
   resumeUrl: "/resume.pdf",
-  email: "hello@shahriar.dev",
+  email: "shahriarseam17@gmail.com",
 };
 
 export interface Social {
@@ -30,9 +32,8 @@ export interface Social {
 
 export const socials: Social[] = [
   { label: "GitHub", handle: "@shahriar-ahmed-seam", href: "https://github.com/shahriar-ahmed-seam", icon: "github" },
-  { label: "LinkedIn", handle: "in/shahriar-ahmed", href: "https://www.linkedin.com/", icon: "linkedin" },
-  { label: "X / Twitter", handle: "@shahriar_codes", href: "https://twitter.com/", icon: "twitter" },
-  { label: "Owl Post", handle: "hello@shahriar.dev", href: "mailto:hello@shahriar.dev", icon: "mail" },
+  { label: "LinkedIn", handle: "in/shahriar-ahmed-seam", href: "https://www.linkedin.com/in/shahriar-ahmed-seam", icon: "linkedin" },
+  { label: "Owl Post", handle: "shahriarseam17@gmail.com", href: "mailto:shahriarseam17@gmail.com", icon: "mail" },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -57,47 +58,52 @@ export interface Discipline {
 
 export const disciplines: Discipline[] = [
   {
-    id: "charms",
-    title: "Charms",
-    subject: "Frontend Craft",
+    id: "divination",
+    title: "Divination",
+    subject: "AI / ML & LLM Systems",
     spells: [
-      { name: "React", incantation: "Componentum Vivo", effect: "Breathes life into interfaces", grade: "O", level: 96 },
-      { name: "Next.js", incantation: "Renderus Servo", effect: "Summons pages at the edge of light", grade: "O", level: 93 },
-      { name: "TypeScript", incantation: "Typus Protego", effect: "Shields code from chaos", grade: "O", level: 94 },
-      { name: "Tailwind CSS", incantation: "Stylo Instantus", effect: "Conjures polish in a breath", grade: "O", level: 92 },
-      { name: "Framer Motion", incantation: "Motus Gracilis", effect: "Makes pixels dance", grade: "E", level: 88 },
+      { name: "LLMs & RAG", incantation: "Cognitio Revelio", effect: "Grounds models in real knowledge", grade: "O", level: 96 },
+      { name: "Agentic AI · LangGraph", incantation: "Autonoma Coniuro", effect: "Summons agents that plan & act", grade: "O", level: 93 },
+      { name: "PyTorch", incantation: "Tensor Vivo", effect: "Breathes life into neural nets", grade: "O", level: 92 },
+      { name: "Computer Vision", incantation: "Oculus Reparo", effect: "Grants machines the gift of sight", grade: "E", level: 88 },
+      { name: "Diffusion & GenAI", incantation: "Creatio ex Noise", effect: "Conjures images from static", grade: "E", level: 85 },
+      { name: "Vector Search · FAISS/pgvector", incantation: "Memoria Proxima", effect: "Finds the nearest memory", grade: "O", level: 90 },
     ],
   },
   {
     id: "transfiguration",
     title: "Transfiguration",
-    subject: "Backend & APIs",
+    subject: "Backend & Systems",
     spells: [
-      { name: "Node.js", incantation: "Serverus Aeternum", effect: "Runs spells beyond the browser", grade: "O", level: 90 },
-      { name: "PostgreSQL", incantation: "Datum Perpetuo", effect: "Preserves memory across ages", grade: "E", level: 86 },
-      { name: "GraphQL", incantation: "Query Precisio", effect: "Asks for exactly what is needed", grade: "E", level: 82 },
-      { name: "Prisma", incantation: "Schema Fidelis", effect: "Maps the shape of data", grade: "E", level: 84 },
+      { name: "Python · FastAPI", incantation: "Serpensortia API", effect: "Conjures swift services", grade: "O", level: 95 },
+      { name: "C++ · SIMD", incantation: "Celeritas Maxima", effect: "Bends metal to raw speed", grade: "E", level: 84 },
+      { name: "Go", incantation: "Concurro Rapidus", effect: "Runs a thousand goroutines at once", grade: "E", level: 82 },
+      { name: "Node.js & TypeScript", incantation: "Eventus Loop", effect: "Never blocks, never sleeps", grade: "O", level: 90 },
+      { name: "PostgreSQL", incantation: "Datum Perpetuo", effect: "Preserves truth across ages", grade: "E", level: 86 },
+    ],
+  },
+  {
+    id: "charms",
+    title: "Charms",
+    subject: "Frontend & Interfaces",
+    spells: [
+      { name: "React & Next.js", incantation: "Renderus Servo", effect: "Summons interfaces at the edge", grade: "O", level: 93 },
+      { name: "TypeScript", incantation: "Typus Protego", effect: "Shields code from chaos", grade: "O", level: 92 },
+      { name: "Tailwind CSS", incantation: "Stylo Instantus", effect: "Conjures polish in a breath", grade: "O", level: 90 },
+      { name: "Three.js · WebGL", incantation: "Dimensio Tertia", effect: "Opens a third dimension", grade: "E", level: 82 },
+      { name: "Framer Motion", incantation: "Motus Gracilis", effect: "Makes pixels dance", grade: "E", level: 86 },
     ],
   },
   {
     id: "potions",
     title: "Potions",
-    subject: "DevOps & Tooling",
+    subject: "MLOps, DevOps & Edge",
     spells: [
-      { name: "Docker", incantation: "Containum Sigillo", effect: "Seals an app in a flask", grade: "E", level: 85 },
-      { name: "AWS", incantation: "Nimbus Elevo", effect: "Raises servers into the clouds", grade: "E", level: 80 },
-      { name: "Vercel", incantation: "Deployo Instantus", effect: "Ships to the world in a blink", grade: "O", level: 90 },
-      { name: "GitHub Actions", incantation: "Automatus Repeto", effect: "Repeats toil so you needn't", grade: "E", level: 83 },
-    ],
-  },
-  {
-    id: "divination",
-    title: "Divination",
-    subject: "Data & Intelligence",
-    spells: [
-      { name: "Python", incantation: "Pythonis Flexus", effect: "Bends data to your will", grade: "E", level: 84 },
-      { name: "TensorFlow", incantation: "Neuron Revelio", effect: "Reveals patterns unseen", grade: "A", level: 72 },
-      { name: "Pandas", incantation: "Tabula Ordino", effect: "Orders the numbers of fate", grade: "E", level: 80 },
+      { name: "Docker & Kubernetes", incantation: "Containum Sigillo", effect: "Seals apps in flasks that scale", grade: "E", level: 86 },
+      { name: "ONNX · On-Device ML", incantation: "Portabilis Mentis", effect: "Shrinks minds to fit a pocket", grade: "E", level: 85 },
+      { name: "Ollama · Local LLMs", incantation: "Privatus Oraculum", effect: "Keeps the oracle offline & private", grade: "O", level: 90 },
+      { name: "Kafka & Redis", incantation: "Fluxus Aeternum", effect: "Streams events without end", grade: "E", level: 83 },
+      { name: "Vercel · Render", incantation: "Deployo Instantus", effect: "Ships to the world in a blink", grade: "O", level: 90 },
     ],
   },
 ];
@@ -119,84 +125,110 @@ export interface Grimoire {
   category: "Charms" | "Transfiguration" | "Potions" | "Divination";
 }
 
+const GH = "https://github.com/shahriar-ahmed-seam";
+
 export const grimoires: Grimoire[] = [
   {
-    id: "marauders-map",
-    title: "Marauder Analytics",
-    arcaneTitle: "The Map That Never Lies",
-    year: "2025",
+    id: "nexus-agent-orchestrator",
+    title: "Nexus Agent Orchestrator",
+    arcaneTitle: "The Coven of Autonomous Agents",
+    year: "2026",
     summary:
-      "A real-time analytics platform that tracks every footstep across a product — event streams, funnels and cohort spells rendered on a live map of user journeys.",
-    tags: ["Next.js", "ClickHouse", "WebSocket", "D3"],
-    imageKey: "map",
-    liveUrl: "#",
-    repoUrl: "https://github.com/shahriar-ahmed-seam",
+      "A production-grade platform for orchestrating autonomous AI agents (plan → research → code → critique) with a real-time LangGraph visual graph, RAG over PDFs and safe tool use. Runs fully offline with zero API keys.",
+    tags: ["LangGraph", "FastAPI", "Next.js", "pgvector", "RAG"],
+    imageKey: "library",
+    repoUrl: `${GH}/nexus-agent-orchestrator`,
     featured: true,
     category: "Divination",
   },
   {
-    id: "room-of-requirement",
-    title: "Room of Requirement",
-    arcaneTitle: "A Workspace That Becomes What You Need",
-    year: "2024",
+    id: "vector-vault-db",
+    title: "Vector Vault DB",
+    arcaneTitle: "A Vault for a Million Memories",
+    year: "2026",
     summary:
-      "An AI-assisted developer workspace that reshapes its tools and layout to the task at hand — pair-programming, docs and terminals summoned on demand.",
-    tags: ["React", "TypeScript", "OpenAI", "tRPC"],
-    imageKey: "library",
-    liveUrl: "#",
-    repoUrl: "https://github.com/shahriar-ahmed-seam",
-    featured: true,
-    category: "Charms",
-  },
-  {
-    id: "polyjuice-ui",
-    title: "Polyjuice UI",
-    arcaneTitle: "One Component, a Thousand Forms",
-    year: "2024",
-    summary:
-      "A themeable, headless component library that transforms its entire appearance from a single set of tokens — accessible by default, brand-shifting in an instant.",
-    tags: ["React", "Radix", "Tailwind", "Storybook"],
+      "A high-performance vector database built from scratch in C++17 with Python bindings: HNSW/IVF ANN indexes, AVX-512 distance kernels, a custom arena allocator and a memory-mapped snapshot format.",
+    tags: ["C++17", "SIMD / AVX-512", "HNSW", "pybind11"],
     imageKey: "spellbook",
-    liveUrl: "#",
-    repoUrl: "https://github.com/shahriar-ahmed-seam",
+    repoUrl: `${GH}/Vector-Vault-DB`,
     featured: true,
-    category: "Charms",
-  },
-  {
-    id: "gringotts-ledger",
-    title: "Gringotts Ledger",
-    arcaneTitle: "Vaults Guarded by Goblin-Grade Security",
-    year: "2023",
-    summary:
-      "A double-entry finance engine with audit trails, role-based vault access and idempotent transactions — the kind of correctness dragons would approve of.",
-    tags: ["Node.js", "PostgreSQL", "Prisma", "Docker"],
-    imageKey: "sorting",
-    repoUrl: "https://github.com/shahriar-ahmed-seam",
     category: "Transfiguration",
   },
   {
-    id: "owl-post",
-    title: "Owl Post",
-    arcaneTitle: "Messages Delivered, Rain or Shine",
-    year: "2023",
+    id: "streammind",
+    title: "StreamMind",
+    arcaneTitle: "The All-Seeing Recommender",
+    year: "2026",
     summary:
-      "A multi-channel notification service — email, push and in-app owls — with templating, retries and delivery tracking behind a single tidy API.",
-    tags: ["Node.js", "Redis", "AWS SQS", "GraphQL"],
-    imageKey: "owl",
-    repoUrl: "https://github.com/shahriar-ahmed-seam",
+      "A Netflix-grade real-time AI recommendation platform: two-stage retrieval, Kafka feature pipelines, FAISS vector search and full MLOps — a cinematic Next.js site atop a PyTorch two-tower engine.",
+    tags: ["PyTorch", "Kafka", "FAISS", "MLOps"],
+    imageKey: "sky",
+    repoUrl: `${GH}/streammind`,
+    featured: true,
+    category: "Divination",
+  },
+  {
+    id: "resonet",
+    title: "ResoNet",
+    arcaneTitle: "Healing Charms from a Cough",
+    year: "2026",
+    summary:
+      "Offline, on-device respiratory-disease screening from cough audio — a ResNet18 model plus full librosa/scipy preprocessing reimplemented in pure Dart + ONNX Runtime, cutting the app from 600MB+ to ~70MB with zero accuracy loss.",
+    tags: ["ONNX", "ResNet", "Edge AI", "Dart"],
+    imageKey: "sorting",
+    repoUrl: `${GH}/ResoNet`,
+    featured: true,
     category: "Potions",
   },
   {
-    id: "pensieve",
-    title: "Pensieve",
-    arcaneTitle: "Search Your Memories Instantly",
-    year: "2022",
+    id: "hilltrack-pulse",
+    title: "HillTrack Pulse",
+    arcaneTitle: "The Map That Foresees Outbreaks",
+    year: "2026",
     summary:
-      "A semantic knowledge base that lets teams dive into their collected notes and docs, surfacing the right memory with vector search and clean recall.",
-    tags: ["Python", "pgvector", "FastAPI", "React"],
-    imageKey: "forest",
-    repoUrl: "https://github.com/shahriar-ahmed-seam",
+      "DBSCAN outbreak detection, multi-modal medical logistics and on-device (Ollama gemma3) + Gemini AI consultation for the Chittagong Hill Tracts — offline-first, built with React + FastAPI.",
+    tags: ["DBSCAN", "FastAPI", "Ollama", "Gemini"],
+    imageKey: "map",
+    repoUrl: `${GH}/HillTrack-Pulse`,
+    featured: true,
     category: "Divination",
+  },
+  {
+    id: "cortex",
+    title: "Cortex",
+    arcaneTitle: "A Familiar That Never Leaves Your Side",
+    year: "2026",
+    summary:
+      "A private, offline-first AI assistant for Windows 11 powered by local LLMs (Ollama) — a cinematic Next.js product site plus a native WinUI 3 desktop app with on-device RAG.",
+    tags: ["WinUI 3", "Ollama", "RAG", "C#"],
+    imageKey: "owl",
+    repoUrl: `${GH}/cortex`,
+    featured: true,
+    category: "Charms",
+  },
+  {
+    id: "hyper-match-engine",
+    title: "Hyper Match Engine",
+    arcaneTitle: "Where Fortunes Change in Nanoseconds",
+    year: "2026",
+    summary:
+      "A low-latency limit-order matching engine: a deterministic, zero-hot-path-allocation C++ matching core, a Rust HTTP/WebSocket gateway, a binary wire protocol and a real-time web console.",
+    tags: ["C++", "Rust", "Low-Latency", "WebSocket"],
+    imageKey: "forest",
+    repoUrl: `${GH}/Hyper-Match-Engine`,
+    category: "Transfiguration",
+  },
+  {
+    id: "ledger-core-banking",
+    title: "Ledger Core Banking",
+    arcaneTitle: "Goblin-Grade Correctness",
+    year: "2026",
+    summary:
+      "A production-grade core-banking engine: double-entry bookkeeping, PostgreSQL row-level locking for concurrency-safe money movement, JWT + RBAC security and a premium internet-banking dashboard.",
+    tags: ["Java", "Spring Boot", "PostgreSQL", "React"],
+    imageKey: "wizard",
+    repoUrl: `${GH}/Ledger-Core-Banking`,
+    category: "Transfiguration",
   },
 ];
 
@@ -213,50 +245,42 @@ export interface Milestone {
 
 export const journey: Milestone[] = [
   {
-    year: "2025",
-    title: "Principal Frontend Engineer",
-    place: "Nimbus Labs",
+    year: "Now",
+    title: "AI/ML Engineer & LLM Researcher",
+    place: "Somokolon Labs · Dhaka",
     description:
-      "Lead the design-system guild and the performance charter — cut load times in half and mentored a coven of engineers.",
+      "Building production LLM systems, multi-agent orchestrators and RAG pipelines — and shipping on-device ML for real-world problems.",
     kind: "work",
   },
   {
-    year: "2022",
-    title: "Senior Full-Stack Engineer",
-    place: "Floo Network Inc.",
+    year: "2026",
+    title: "100+ Open-Source Grimoires",
+    place: "GitHub · @shahriar-ahmed-seam",
     description:
-      "Architected event-driven services and a component library adopted across five product teams.",
-    kind: "work",
+      "From a from-scratch C++ vector database to autonomous agent swarms and edge-AI healthcare apps — a prolific, public body of work.",
+    kind: "award",
   },
   {
-    year: "2020",
-    title: "Full-Stack Engineer",
-    place: "Diagon Systems",
+    year: "Focus",
+    title: "LLM Systems, RAG & Agentic AI",
+    place: "Research & Practice",
     description:
-      "Shipped the first version of a customer platform from a blank scroll to thousands of daily users.",
-    kind: "work",
-  },
-  {
-    year: "2019",
-    title: "N.E.W.T. in Computer Science",
-    place: "University of Enchantment",
-    description:
-      "Graduated with distinction, specialising in human–computer interaction and distributed systems.",
+      "Deep work across generative AI, diffusion models, computer vision, NLP and system design — bridging research and engineering.",
     kind: "study",
   },
   {
-    year: "2018",
-    title: "Order of Merit, Open Source",
-    place: "The Wider Wizarding Web",
+    year: "Impact",
+    title: "Healthcare AI for Bangladesh",
+    place: "Gram-Sheba · HillTrack Pulse · ResoNet",
     description:
-      "Recognised for contributions to widely-used open-source charms and accessibility tooling.",
-    kind: "award",
+      "Offline-first triage, outbreak detection and cough-based disease screening designed to reach underserved communities.",
+    kind: "work",
   },
 ];
 
 export const stats = [
-  { label: "Spells Mastered", value: "40+", hint: "technologies" },
-  { label: "Grimoires Shipped", value: "60+", hint: "projects" },
-  { label: "Years at the Craft", value: "8", hint: "professional" },
+  { label: "Grimoires Shipped", value: "100+", hint: "public repos" },
+  { label: "AI Systems Forged", value: "40+", hint: "LLM / ML" },
+  { label: "Languages Wielded", value: "12+", hint: "Py · C++ · Go · TS…" },
   { label: "House Points", value: "∞", hint: "and counting" },
 ];
