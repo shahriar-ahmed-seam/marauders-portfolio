@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "url": "https://images.unsplash.com/photo-1514539079130-25950c84af65?ixid=M3w5ODkxNDZ8MHwxfHNlYXJjaHwxfHxnb3RoaWMlMjBjYXN0bGUlMjBuaWdodCUyMGZvZyUyMG1vb258ZW58MXwwfHx8MTc4Mjg4ODA1OHww&ixlib=rb-4.1.0",
+    "color": "#404040",
+    "blurHash": "LtF~s^xtR*WB_4s:WBWBt7niaxj[",
+    "alt": "closeup photo of castle with mist",
+    "credit": {
+      "name": "Cederic Vandenberghe",
+      "username": "cedericvandenberghe",
+      "link": "https://unsplash.com/@cedericvandenberghe"
+    }
+  },
+  "sorting": {
+    "url": "https://images.unsplash.com/photo-1651128930923-939aaef80ee1?ixid=M3w5ODkxNDZ8MHwxfHNlYXJjaHwxfHxkYXJrJTIwbWFnaWMlMjBjYW5kbGUlMjBzbW9rZXxlbnwxfDB8fHwxNzgyODg4MDU5fDA&ixlib=rb-4.1.0",
+    "color": "#26260c",
+    "blurHash": "LFEAc9]*9^$$11^1}WR-$zJB$NxC",
+    "alt": "a group of candles on a table",
+    "credit": {
+      "name": "Viktor SOLOMONIK",
+      "username": "solomonikvik",
+      "link": "https://unsplash.com/@solomonikvik"
+    }
+  },
+  "wizard": {
+    "url": "https://images.unsplash.com/photo-1618081414015-b2f1111caf2d?ixid=M3w5ODkxNDZ8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwZGFyayUyMGFjYWRlbWlhJTIwcG9ydHJhaXQlMjBjYW5kbGV8ZW58MXwxfHx8MTc4Mjg4ODA2MHww&ixlib=rb-4.1.0",
+    "color": "#260c0c",
+    "blurHash": "LHBf%]^+4:4o01IUxtxtx]kDxaxu",
+    "alt": "white ceramic bust of man",
+    "credit": {
+      "name": "Megi meg",
+      "username": "megg21",
+      "link": "https://unsplash.com/@megg21"
+    }
+  },
+  "spellbook": {
+    "url": "https://images.unsplash.com/photo-1558596602-b09a835e8bc6?ixid=M3w5ODkxNDZ8MHwxfHNlYXJjaHwxfHxvbGQlMjBzcGVsbCUyMGJvb2slMjBjYW5kbGUlMjBtYWdpY3xlbnwxfDB8fHwxNzgyODg4MDYyfDA&ixlib=rb-4.1.0",
+    "color": "#260c0c",
+    "blurHash": "LC7TzaxZ0hE24=Rk?E%1xZs.NHRl",
+    "alt": "grass candelabra",
+    "credit": {
+      "name": "Michel Bocquet",
+      "username": "bill_2",
+      "link": "https://unsplash.com/@bill_2"
+    }
+  },
+  "library": {
+    "url": "https://images.unsplash.com/photo-1758730010177-1711515b7552?ixid=M3w5ODkxNDZ8MHwxfHNlYXJjaHwxfHxhbmNpZW50JTIwbGlicmFyeSUyMGRhcmslMjBtb29keSUyMGJvb2tzfGVufDF8MHx8fDE3ODI4ODgwNjJ8MA&ixlib=rb-4.1.0",
+    "color": "#26260c",
+    "blurHash": "L78Dwl%00goy0gNb-nafIWRkoKod",
+    "alt": "A dimly lit study filled with books and candles",
+    "credit": {
+      "name": "Jametlene Reskp",
+      "username": "reskp",
+      "link": "https://unsplash.com/@reskp"
+    }
+  },
+  "map": {
+    "url": "https://images.unsplash.com/photo-1648717008621-ee7e6acfe270?ixid=M3w5ODkxNDZ8MHwxfHNlYXJjaHwxfHxvbGQlMjBwYXJjaG1lbnQlMjBtYXAlMjB2aW50YWdlfGVufDF8MHx8fDE3ODI4ODgwNjN8MA&ixlib=rb-4.1.0",
+    "color": "#c0a68c",
+    "blurHash": "LMKKAnxt01WB-:ayadj[M|aeM|of",
+    "alt": "weathered beige grunge paper texture",
+    "credit": {
+      "name": "Aiham Othman",
+      "username": "aihamgd",
+      "link": "https://unsplash.com/@aihamgd"
+    }
+  },
+  "forest": {
+    "url": "https://images.unsplash.com/photo-1630695230041-8909e3204778?ixid=M3w5ODkxNDZ8MHwxfHNlYXJjaHwxfHxtaXN0eSUyMGRhcmslMjBmb3Jlc3QlMjBmb2clMjBtb29ubGlnaHR8ZW58MXwwfHx8MTc4Mjg4ODA2NXww&ixlib=rb-4.1.0",
+    "color": "#0c2626",
+    "blurHash": "L62iz[o$V?adyZo#adado$kDflad",
+    "alt": "bare trees on forest during daytime",
+    "credit": {
+      "name": "Taylor Wright",
+      "username": "taylorwright22",
+      "link": "https://unsplash.com/@taylorwright22"
+    }
+  },
+  "owl": {
+    "url": "https://images.unsplash.com/photo-1653426655873-2f7a80f4b4de?ixid=M3w5ODkxNDZ8MHwxfHNlYXJjaHwxfHxvd2wlMjBuaWdodCUyMGRhcmslMjBmb3Jlc3R8ZW58MXwwfHx8MTc4Mjg4ODA2Nnww&ixlib=rb-4.1.0",
+    "color": "#0c2626",
+    "blurHash": "L20,bhi]ZypLk8fjaej[j[fPflf5",
+    "alt": "a bird perched on a tree in a forest",
+    "credit": {
+      "name": "Erik Karits",
+      "username": "erik_karits",
+      "link": "https://unsplash.com/@erik_karits"
+    }
+  },
+  "sky": {
+    "url": "https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=M3w5ODkxNDZ8MHwxfHNlYXJjaHwxfHxzdGFycnklMjBuaWdodCUyMHNreSUyMHN0YXJzJTIwZ2FsYXh5fGVufDF8MHx8fDE3ODI4ODgwNjZ8MA&ixlib=rb-4.1.0",
+    "color": "#0c2659",
+    "blurHash": "LF7U[HofDgjZDhac%MkDMtWXb0n$",
+    "alt": "blue and purple galaxy digital wallpaper",
+    "credit": {
+      "name": "Jeremy Thomas",
+      "username": "jeremythomasphoto",
+      "link": "https://unsplash.com/@jeremythomasphoto"
+    }
+  },
+  "parchment": {
+    "url": "https://images.unsplash.com/photo-1706790608211-4c03fd4f4d33?ixid=M3w5ODkxNDZ8MHwxfHNlYXJjaHwxfHxhZ2VkJTIwcGFyY2htZW50JTIwcGFwZXIlMjB0ZXh0dXJlfGVufDF8MHx8fDE3ODI4ODgwNjd8MA&ixlib=rb-4.1.0",
+    "color": "#c0a68c",
+    "blurHash": "L2MsT6DgX;%gw5?vtQRi4pkXMwj@",
+    "alt": "a piece of paper with a brown background",
+    "credit": {
+      "name": "Pixelbuddha Studio",
+      "username": "pixelbuddhastudio",
+      "link": "https://unsplash.com/@pixelbuddhastudio"
+    }
+  }
+}
